@@ -1,1 +1,1 @@
-# Template Mod for ModPack
+# Impact Research mod

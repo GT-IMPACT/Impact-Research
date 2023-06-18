@@ -27,3 +27,9 @@ buildConfig {
     buildConfigField("String", "GROUPNAME", "\"${modGroup}\"")
     useKotlinOutput { topLevelConstants = true }
 }
+
+dependencies {
+    api("com.github.GTNewHorizons:ModularUI:1.1.10:dev")
+    api("space.impact:packet_network:1.1.+:dev")
+    implementation(fileTree(mapOf("dir" to "libs/", "include" to listOf("*.jar"))))
+}
