@@ -19,6 +19,12 @@ import space.impact.impactresearch.common.tiles.CraftTableResearchTile
 
 class CraftTableResearchBlock : BlockContainer(Material.wood) {
 
+    init {
+        setHarvestLevel("axe", 0)
+        setHardness(2.0f)
+        setResistance(6.0f)
+    }
+
     @SideOnly(Side.CLIENT)
     override fun registerBlockIcons(reg: IIconRegister) {
         blockIcon = reg.registerIcon("crafting_table_side")

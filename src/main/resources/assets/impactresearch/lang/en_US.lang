@@ -1,4 +1,17 @@
-#Items
 item.draft_item.0.name=Empty Draft
 item.draft_item.1.name=Filled Draft
+item.draft_item_part.0.name=Part Draft I
+item.draft_item_part.1.name=Part Draft II
+item.draft_item_part.2.name=Part Draft III
+item.draft_item_part.3.name=Part Draft IV
+item.draft_item_part.4.name=Part Draft V
+item.draft_item_part.5.name=Part Draft VI
+item.draft_item_part.6.name=Part Draft VII
+item.draft_item_part.7.name=Part Draft VIII
+item.draft_item_part.8.name=Part Draft IX
+
 draft_based_making=Draft based for making a
+already_learning=Already Learning
+
+tile.crafting_table_block.name=Draft Workbench
+

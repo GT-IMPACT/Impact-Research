@@ -10,7 +10,6 @@ import space.impact.impactresearch.client.render.CraftTableResearchTileRender
 import space.impact.impactresearch.common.tiles.CraftTableResearchTile
 
 class ClientProxy : CommonProxy() {
-
     override fun init() {
         MinecraftForgeClient.registerItemRenderer(
             Item.getItemFromBlock(ImpactResearch.craftingResearchBlock),

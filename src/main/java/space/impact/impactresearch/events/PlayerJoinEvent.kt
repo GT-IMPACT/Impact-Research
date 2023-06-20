@@ -7,7 +7,7 @@ import net.minecraftforge.common.MinecraftForge
 import space.impact.impactresearch.config.Config
 import space.impact.impactresearch.draftlogic.database.DraftPlayerProgress
 import space.impact.impactresearch.draftlogic.ingame.DraftManager
-import space.impact.impactresearch.network.NetworkPackets
+import space.impact.impactresearch.network.DraftNetworkPackets
 import space.impact.packet_network.network.NetworkHandler.sendToPlayer
 
 class PlayerJoinEvent {
@@ -22,7 +22,7 @@ class PlayerJoinEvent {
         e.player?.also {
             val keyPlayer = if (Config.usePlayerNameOrUUID) e.player.gameProfile.id.toString() else e.player.gameProfile.name
             val progress = DraftManager.DRAFT_PROGRESS[keyPlayer] ?: DraftPlayerProgress()
-            it.sendToPlayer(NetworkPackets.SyncClientDraftProgress.transaction(progress))
+            it.sendToPlayer(DraftNetworkPackets.SyncClientDraftProgress.transaction(progress))
         }
     }
 }

@@ -1,4 +1,16 @@
-#Items
 item.draft_item.0.name=Пустой чертеж
 item.draft_item.1.name=Заполненный чертеж
+item.draft_item_part.0.name=Часть чертежа I
+item.draft_item_part.1.name=Часть чертежа II
+item.draft_item_part.2.name=Часть чертежа III
+item.draft_item_part.3.name=Часть чертежа IV
+item.draft_item_part.4.name=Часть чертежа V
+item.draft_item_part.5.name=Часть чертежа VI
+item.draft_item_part.6.name=Часть чертежа VII
+item.draft_item_part.7.name=Часть чертежа VIII
+item.draft_item_part.8.name=Часть чертежа IX
+
 draft_based_making=Чертеж для изготовления
+already_learning=Уже изучено
+
+tile.crafting_table_block.name=Чертежный стол
